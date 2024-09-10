@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situs Web dengan Animasi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#love-article"><i class="fas fa-heart"></i> Cinta</a></li>
+                <li><a href="#gallery"><i class="fas fa-image"></i> Gallery</a></li>
+                <li><a href="#cards"><i class="fas fa-cards"></i> Cards</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="intro">
+        <h1>Selamat Datang di Situs Web</h1>
+        <p>Ini adalah contoh situs web dengan navbar, gambar gulir horizontal, dan card dengan animasi.</p>
+    </section>
+    <section id="love-article" class="love-article fade-in">
+        <h2>Cinta: Kekuatan yang Mengubah Dunia</h2>
+        <p>Cinta adalah salah satu kekuatan paling kuat yang ada di dunia. Ia dapat memotivasi kita untuk melakukan hal-hal besar dan membuat dunia menjadi tempat yang lebih baik. Dalam artikel ini, kita akan mengeksplorasi bagaimana cinta dapat memengaruhi hidup kita, hubungan kita, dan bahkan masyarakat kita secara keseluruhan.</p>
+    </section>
+    <section id="gallery" class="gallery">
+        <h2>Galeri Gambar</h2>
+        <div class="image-container">
+            <img src="IMG-20240903-WA0161.jpg" alt="Gambar 1">
+            <img src="IMG-20240903-WA0162.jpg" alt="Gambar 2">
+            <img src="IMG-20240903-WA0163.jpg" alt="Gambar 3">
+            <img src="IMG-20240903-WA0161.jpg" alt="Gambar 1">
+            <img src="IMG-20240903-WA0162.jpg" alt="Gambar 2">
+            <img src="IMG-20240903-WA0163.jpg" alt="Gambar 3">
+        </div>
+        <div class="arrow" id="scrollArrow"></div>
+    </section>
+    <section id="cards" class="cards blur-background">
+        <h2>Kartu</h2>
+        <div class="card">
+            <h3>Judul Kartu 1</h3>
+            <p>Ini adalah deskripsi untuk kartu pertama. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="card">
+            <h3>Judul Kartu 2</h3>
+            <p>Ini adalah deskripsi untuk kartu kedua. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="card">
+            <h3>Judul Kartu 3</h3>
+            <p>Ini adalah deskripsi untuk kartu ketiga. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </section>
+   <script src="scripts.js"></script>
+</body>
+</html>
